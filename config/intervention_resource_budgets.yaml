@@ -1,0 +1,45 @@
+quarterly_budgets:
+  encounter_quality_audits: 560
+  procedural_justice_training_places: 140
+  community_scrutiny_sessions: 40
+  precision_protection_packages: 25
+  monitored_search_regime_reviews: 40
+  evaluation_slots: 13
+
+package_costs:
+  P0_monitor_only:
+    encounter_quality_audits: 0
+    procedural_justice_training_places: 0
+    community_scrutiny_sessions: 0
+    precision_protection_packages: 0
+    monitored_search_regime_reviews: 0
+    evaluation_slots: 0
+
+  P1_low_yield_review:
+    encounter_quality_audits: 20
+    monitored_search_regime_reviews: 1
+    evaluation_slots: 1
+
+  P2_training_and_audit:
+    encounter_quality_audits: 40
+    procedural_justice_training_places: 10
+    evaluation_slots: 1
+
+  P3_community_confidence:
+    encounter_quality_audits: 20
+    community_scrutiny_sessions: 1
+    evaluation_slots: 1
+
+  P4_precision_protection:
+    encounter_quality_audits: 40
+    procedural_justice_training_places: 10
+    community_scrutiny_sessions: 1
+    precision_protection_packages: 1
+    evaluation_slots: 1
+
+  P5_combined_high_priority:
+    encounter_quality_audits: 60
+    procedural_justice_training_places: 15
+    community_scrutiny_sessions: 1
+    monitored_search_regime_reviews: 1
+    evaluation_slots: 1
