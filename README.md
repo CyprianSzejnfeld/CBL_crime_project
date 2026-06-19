@@ -31,12 +31,11 @@ Run this:
 cd backend
 .venv/bin/python -m uvicorn app.main:app --port 8000
 
-If this produces error make sure the port 8000 is free uvicorn is installed.
+If this produces error make sure the port 8000 is free and uvicorn is installed.
 Run this: uvicorn app.main:app --port 8000
 
 
 ## 4. Frontend (terminal 2)
-
 
 cd frontend
 npm install
