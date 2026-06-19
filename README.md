@@ -12,7 +12,9 @@ If there is no data folder create it in the root folder among folders like backe
 Run this commands one by one in the terminal being at the root file level:
 
 python3.13 -m venv backend/.venv
+
 backend/.venv/bin/python -m pip install --upgrade pip
+
 backend/.venv/bin/python -m pip install -r backend/requirements.txt
 
 
