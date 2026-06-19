@@ -27,12 +27,14 @@ bash run_pipeline.sh
 
 ## 3. Backend (terminal 1)
 
-
+Run this:
 cd backend
 .venv/bin/python -m uvicorn app.main:app --port 8000
 
+If this produces error make sure the port 8000 is free uvicorn is installed.
+Run this: uvicorn app.main:app --port 8000
 
-Run this:
+
 ## 4. Frontend (terminal 2)
 
 
@@ -40,6 +42,7 @@ cd frontend
 npm install
 npm run dev
 
+Note that you need to have node js and npm installed.
 
 Open http://localhost:5173
 
